@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA</title>
+    <link rel="shortcut icon" href="./img/nada.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+      <h2>NASA ASTRONOMY PICTURE OF THE DAY</h2>
+    
+    <!-- the name, image/video, and description will be determined by the date the user chooses -->
+    <h3 class="name"></h3>
+    <img src="" alt="" class="center">
+    <section class="move">
+    <p class="description"></p>
+
+    <section>
+      <h4 class="selectDate">Select a date to explore NASA's picture of the day archive.</h4>
+      <input
+          type="date"
+          name=""
+          value=""
+          placeholder="YYYY-MM-DD"
+          id="input"
+          onkeypress="getImage()"
+        />
+        <button type="button" name="searchButton" id="searchButton">
+          Search Date
+        </button>
+      </section>
+
+  
+    <script src="./js/index.js"></script>
+</body>
+</html>
