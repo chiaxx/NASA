@@ -51,8 +51,13 @@ p{
 
 body{
     background-color: rgb(7,7,36);
-    background-image: url(../img/background-stars.svg);
-    
+    background-image: url(../img/background-stars.svg)no-repeat;
+    background-size: 100vw auto;
+}
+@media (orientation: portrait) {
+    body {
+        background-size: auto 100vh;
+    }
 }
 
 input, button {
