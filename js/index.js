@@ -3,10 +3,7 @@
 document.querySelector('#searchButton').addEventListener('click', getImage)
 window.onload = getImage;
 
-
-
 const key ='gFrcgcmnPeVJj26kBIaUGAvRzuJVZNY8kjxWNhFZ'
-
 
 function getImage() {
 let date = document.querySelector('#input').value
